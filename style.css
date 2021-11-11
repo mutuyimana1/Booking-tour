@@ -252,15 +252,15 @@ background-color: cadetblue;
 .right p{
   padding-top: 20px;
 }
+.message{
+  float: right;
+  margin-left: 20px;
+}
 .message h2{
   text-align: center;
   margin-top: 100px;
 }
-table{
-  width: 70%;
-  float: right;
-  margin-right: 90px;
-}
+
 /* 
     .home-container h2{
     
