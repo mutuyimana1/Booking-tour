@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topnav {
+  width: 100%;
+
+  background-color: rgba(44, 218, 102, 0.719);
+  padding: 15px 10px 15px 50px;
+  display: flex;
+  box-shadow: 3px 3px 3px rgb(214, 161, 161);
+}
+.logo {
+  width: 10%;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.navbar-right {
+  height: 70px;
+  width: 85%;
+  overflow: hidden;
+}
+.topnav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: x-large;
+  float: right;
+  height: 100%;
+}
+.topnav a:hover {
+  background-color: #808080;
+  /* color: darkred; */
+  /* text-decoration: underline; */
+}
+body {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./images/others.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 99%;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+.home-container {
+  height: 95vh;
+}
+.home-container h1 {
+  color: black;
+  font-size: 90px;
+  text-align: center;
+}
+.quates {
+  background-color: rgba(171, 206, 226, 0.534);
+  width: 30%;
+  height: 60%;
+  margin-top: 20px;
+  float: right;
+  margin-right: 40px;
+  padding: 30px 20px;
+  font-size: 24px;
+  box-shadow: 5px 3px 3px 3px rgb(30, 32, 32);
+}
+button {
+  color: rgb(30, 104, 30);
+  font-size: 30px;
+  width: 60%;
+  margin-top: 38px;
+  border-radius: 50px;
+  margin-left: 60px;
+  padding: 10px 4px;
+}
+.tour-section-container {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+}
+.book-sort-div {
+  width: 90%;
+  height: 70vh;
+
+  margin-left: 60px;
+}
+.book-sort {
+  width: 50%;
+  height: 80vh;
+}
+.book-sort h1 {
+  padding: 10px 10px;
+  font-size: 70px;
+}
+.book-sort label {
+  padding: 20px 20px;
+  font-size: 40px;
+}
+.book-sort select {
+  margin: 20px 20px;
+  width: 70%;
+  height: 9%;
+  font-size: larger;
+  font-family: cursive;
+}
+.img img {
+  width: 600px;
+
+  background-color: rgb(30, 104, 30);
+}
+.book-sort button {
+  float: right;
+}
+.forms-div {
+  float: right;
+  background-color: rgba(128, 128, 128, 0.849);
+  font-size: x-large;
+  margin-right: 30px;
+  margin-top: 50px;
+  width: 30%;
+  height: 65vh;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 2px 0px 3px white;
+}
+.input {
+  margin-left: 80px;
+}
+.forms-div label {
+  margin-left: 60px;
+}
+.forms-div h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+.forms-div input {
+  height: 4vh;
+  width: 80%;
+  box-shadow: 1px 0px 1px 0px wheat;
+}
+.forms-div button {
+  margin-top: 15px;
+}
+.organization-container{
+    height: 70vh;
+}
+.organization-div {
+  background-color: white;
+  height: 170vh;
+}
+.organization-div h1 {
+  padding: 50px;
+}
+.organization-content {
+  margin-left: 90px;
+  width: 40%;
+  
+  font-size: 20px;
+  background-color: rgb(9, 94, 192);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.organization-content h2{
+    background-color: rgb(20, 120, 202);
+    width: 105%;
+    padding-left: 0px;
+}
+.organization-mission{
+    
+    width: 50%;
+    height: 40vh;
+    padding: 20px 20px ;
+    margin-left: 30px;
+   
+
+}
+.organization-vission{
+    width: 50%;
+    height: 40vh;
+    padding: 20px 20px ;
+
+
+}
+.organization-goals{
+    width: 50%;
+    height: 40h;
+    padding: 20px 50px ;
+
+}
+.organization-mission-values{
+    width: 50%;
+    height: 40vh;
+    padding: 20px 20px ;
+    padding-left: 80px;
+
+}
+.buttonm_container{
+  padding: 10px 10px;
+  background-color: rgb(14, 12, 12);
+}
+.OurServices{
+  width: 25%;
+
+}
+.Offers{
+  width: 25%;
+  margin-left: 20px;
+  padding-bottom: 10px;
+
+
+}
+.Social-media{
+  width: 25%;
+
+}
+.Address{
+  width: 25%;
+
+}
+.button_container{
+  background-color: gray;
+  height: 50vh;
+}
+.end{
+  height: 10vh;
+  width: 100%;
+background-color: black; 
+color: white;
+text-align: center; 
+}
+.contact-container{
+  height: 100vh;
+  width: 100%;
+  background-color: wheat;
+  margin-top: 180px;
+}
+.upper-part h2{
+padding: 20px 20px;
+margin-left: 40px;
+border: solid 2px cadetblue;
+width: 15%;
+background-color: cadetblue;
+
+}
+.left{
+  width: 30%;
+
+}
+.right{
+  width: 70%;
+ 
+}
+.right p{
+  padding-top: 20px;
+}
+.message h2{
+  text-align: center;
+  margin-top: 100px;
+}
+table{
+  width: 70%;
+  float: right;
+  margin-right: 90px;
+}
+/* 
+    .home-container h2{
+    
+    margin-left: 1000px;
+    width: 60px;
+    border: solid 2px red;
+    background-color: gray;
+    border-radius: 20px;
+    padding-left: 150px;
+    font-size: 30px;
+
+
+    } */
