@@ -6,10 +6,10 @@
 .topnav {
   width: 100%;
 
-  background-color: rgba(44, 218, 102, 0.719);
+  background-color: black;
   padding: 15px 10px 15px 50px;
   display: flex;
-  box-shadow: 3px 3px 3px rgb(214, 161, 161);
+  box-shadow: 3px 3px 3px skyblue;
 }
 .logo {
   width: 10%;
@@ -73,7 +73,7 @@ button {
 }
 .tour-section-container {
   width: 100%;
-  height: 90vh;
+  height: 250vh;
   background-color: white;
 }
 .book-sort-div {
@@ -199,11 +199,13 @@ button {
 }
 .OurServices{
   width: 25%;
+  padding-left: 20px;
 
 }
 .Offers{
   width: 25%;
-  margin-left: 20px;
+  margin: 10px 20px;
+  padding-right:60px ;
   padding-bottom: 10px;
 
 
@@ -226,11 +228,12 @@ button {
 background-color: black; 
 color: white;
 text-align: center; 
+padding-top: 20px;
 }
 .contact-container{
-  height: 100vh;
+  height: 140vh;
   width: 100%;
-  background-color: wheat;
+  background-color: whitesmoke;
   margin-top: 180px;
 }
 .upper-part h2{
@@ -254,11 +257,84 @@ background-color: cadetblue;
 }
 .message{
   float: right;
-  margin-left: 20px;
+  margin-right: 90px;
+  font-size: larger;
+  box-shadow: 2px 1px 2px 3px rgb(95, 87, 87);
+  margin-top: 100px;
+ 
+}
+.message input:hover{
+border: none;
+
 }
 .message h2{
   text-align: center;
-  margin-top: 100px;
+  
+}
+.message h3{
+  padding: 20px 20px;
+margin-left: 40px;
+border: solid 2px cadetblue;
+width: 15%;
+background-color: cadetblue;
+margin-left: 50%;
+margin-bottom: 10px;
+
+}
+.garelly{
+  display: flex;
+  margin-top: 40px;
+}
+.Garelley-1{
+  width: 40%;
+  height: 30vh;
+  margin-left: 10px;
+ 
+}
+.Garelley-1 img{
+  width: 250px;
+  margin: 50px;
+}
+.garelly-description{
+  width: 60%;
+  height: 30vh;
+  padding-left: 30px;
+  
+}
+.garelly-description img{
+  width: 220px;
+  margin-top: 30px;
+}
+.description{
+  padding: 40px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.Garelley-1 img {
+  border-radius: 20px;
+  border: solid 2px black;
+  margin-top: 10px;
+
+}
+.Garelley-1 img:hover{
+  border: 4px solid gray;
+  background-color: rgba(190, 241, 241,);
+}
+.description button{
+  width: 30%;
+  font-size: 19px;
+  padding-top: 1px;
+  border: none;
+  border-bottom: 4px solid black ;
+}
+.garelly-description img{
+  border-radius: 10px;
+}
+.icons{
+  background-color: darkgrey;
+}
+.icons img{
+  margin-left: 130px;
 }
 
 /* 
